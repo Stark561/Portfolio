@@ -143,6 +143,10 @@ section {
     font-size: 1.6rem;
 }
 
+.home-text{
+    margin-bottom: 15px;
+}
+
 .home-content .social-media a {
     display: inline-flex;
     justify-content: center;
@@ -243,7 +247,7 @@ section {
     color: var(--main-color);
     transform: rotate(calc(360deg / 4 * var(--i)));
     transform-origin: 384px;
-    background: var(--bg-color);
+    background: rgba(0, 0, 0, 0);
     padding: 13px 0;
 }
 
