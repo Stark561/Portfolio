@@ -41,18 +41,18 @@ navbar.classList.remove('active');
 };
 
 // ======== download cd ============= // 
-function downloadFile() {
+// function downloadFile() {
     
-    const fileUrl = "/images/Igor_Pilipenko_Full_Stack_Developer.pdf";
-    const fileName = 'Резюме.pdf';
-    const link = document.createElement('a');
+//     const fileUrl = "images/Igor_Pilipenko_Full_Stack_Developer.pdf";
+//     const fileName = 'Резюме.pdf';
+//     const link = document.createElement('a');
 
-    link.href = fileUrl;
-    link.download = fileName;
-    link.click();
+//     link.href = fileUrl;
+//     link.download = fileName;
+//     link.click();
 
-    document.body.removeChild(link);
-}
+//     document.body.removeChild(link);
+// }
 
 /*========== swiper ==========*/
 var swiper = new Swiper(".mySwiper", {
