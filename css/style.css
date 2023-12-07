@@ -396,6 +396,31 @@ span {
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
     gap: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+.btn-portfolio {
+    display: flex;
+    padding: 1.2rem 2.8rem;
+    background: var(--main-color);
+    border-radius: .6rem;
+    box-shadow: 0 .2rem .5rem var(--shadow-color);
+    font-size: 1.6rem;
+    color: var(--white-color);
+    letter-spacing: .1rem;
+    font-weight: 600;
+    border: .2rem solid transparent;
+    transition: .5s ease;
+    margin: 0 auto;
+    max-width: 148px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn-portfolio:hover {
+    background: transparent;
+    color: var(--main-color);
+    border-color: var(--main-color);
 }
 
 .portfolio-container .portfolio-box {
@@ -432,27 +457,6 @@ span {
     opacity: 0;
     transition: .5s ease;
 }
-
-/* .portfolio-link{
-    display: flex;
-}
-
-.btn-link{
-    display: inline-block;
-    padding: 1.2rem 2.8rem;
-    background: var(--main-color);
-    border-radius: .6rem;
-    width: 100px;
-    height: 50px;
-    box-shadow: 0 .2rem .5rem var(--shadow-color);
-    font-size: 1.6rem;
-    color: var(--text-color);
-    letter-spacing: .1rem;
-    font-weight: 600;
-    border: .2rem solid transparent;
-    transition: .5s ease;
-    margin-right: 15px;
-} */
 
 .portfolio-box:hover .portfolio-layer {
     opacity: 1;
