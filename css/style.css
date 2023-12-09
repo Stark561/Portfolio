@@ -804,6 +804,7 @@ span {
         padding: 0 3% 23rem;
         justify-content: center;
         text-align: center;
+        padding-top: 50px;
     }
 
     .home-content h3 {
@@ -838,7 +839,7 @@ span {
     }
 
     .home .profession-box .profession:nth-child(1) {
-        transform: rotate(-90deg) translate(-120px, -210px);
+        transform: rotate(-90deg) translate(-50px, -220px);
     }
 
     .home .profession-box .profession:nth-child(1) i {
@@ -846,15 +847,15 @@ span {
     }
 
     .home .profession-box .profession:nth-child(2) {
-        transform: rotate(0deg) translate(0, -325px);
+        transform: rotate(0deg) translate(-5px, -260px);
     }
 
     .home .profession-box .profession:nth-child(3) {
-        transform: rotate(90deg) translate(-115px, -450px);
+        transform: rotate(90deg) translate(-55px, -310px);
     }
 
     .home .profession-box .profession:nth-child(4) {
-        transform: rotate(180deg) translate(-220px, -325px);
+        transform: rotate(180deg) translate(-105px, -260px);
     }
 
     .home .profession-box .circle {
@@ -917,19 +918,19 @@ span {
     }
 
     .home .profession-box .profession:nth-child(1) {
-        transform: rotate(-90deg) translate(-110px, -220px);
+        transform: rotate(-90deg) translate(-50px, -220px);
     }
 
     .home .profession-box .profession:nth-child(2) {
-        transform: rotate(0deg) translate(5px, -325px);
+        transform: rotate(0deg) translate(-5px, -260px);
     }
 
     .home .profession-box .profession:nth-child(3) {
-        transform: rotate(90deg) translate(-105px, -440px);
+        transform: rotate(90deg) translate(-55px, -310px);
     }
 
     .home .profession-box .profession:nth-child(4) {
-        transform: rotate(180deg) translate(-210px, -325px);
+        transform: rotate(180deg) translate(-105px, -260px);
     }
 
     .home .profession-container .overlay {
